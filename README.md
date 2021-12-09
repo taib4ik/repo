@@ -1,2 +1,3 @@
 # repository
 my second repository 
+v obshem ya tutb reshil nemnogo anpisat o sebe... 
