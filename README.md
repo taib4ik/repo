@@ -1,2 +1,2 @@
-# repo
+# repository
 my second repository 
