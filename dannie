@@ -1,0 +1,23 @@
+n = int(input())
+test = {'0','1','2','3','4','5','6','7','8','9'}
+L = set()
+for i in range(n):
+    ind = 0
+    t = int(input())
+    a_i = str(input())
+    s = a_i.split()
+    for i in range(t-2):
+        if ind == 1:
+            break
+        for j in range(i+1,t-1):
+            if ind == 1:
+                break
+            for k in range(j+1,t):
+                L = set()
+                W = s[i]+s[j]+s[k]
+                for x in range(len(W)):
+                    L.add(W[x])
+                if test <= L:
+                    ind = 1
+                    print(s[i],s[j],s[k])
+                    break
